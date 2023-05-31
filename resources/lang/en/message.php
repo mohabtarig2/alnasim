@@ -1,7 +1,7 @@
 <?php
 
 return [
-  "Welcome_to_our_Magic_Hand_Services"=>'Welcome to our Magic Hand Services!',
+  "Welcome_to_our_Magic_Hand_Services"=>'Welcome to  alnaseem alasil Services!',
   "send_mail"=>'Send Mail',
   "Mon_to_Sat"=>"Sat to Fri",
   "am"=>"am " ,
@@ -18,7 +18,7 @@ return [
   "Councils and tents"=>"Councils and tents",
   "download"=>"download",
   "license"=>"license",   
-  "downloadLicense"=>"MAGIC HAND CONTRACTING GENERAL MAINTENANCE AIR CONDITIONING AND 
+  "downloadLicense"=>"alnaseem alalil CONTRACTING GENERAL MAINTENANCE AIR CONDITIONING AND 
   INSTALLATION",
       "Car umbrellas"=>"Car umbrellas",
       "landscape"=>"landscape",
@@ -114,18 +114,21 @@ return [
     'magic_hand_slug' => 'Ac maintenance & installation',
     'Home' => 'Home',
     'How' => 'Our Mindset ',
-    'About' => 'About Us',
-    'OurServices' => 'Our Services',
-    'WhyUs' => ' Why Us',
-    'contact' => 'Contact Us',
+    'About' => 'About',
+    'OurServices' => 'Services',
+    'WhyUs' => ' WhyUs',
+    'contact' => 'Contact',
     "24Hours"=>"24 Hours",
-    "weclome"=>" welcome in Magic Hand ",
+    "weclome"=>" welcome in alnaseem alalil ",
     "Location"=>" Our Location ",
     "Abudhabi"=>"  Abudhabi ",
+    "all_uae"=>"All Uae Coverage",
+    "We_provide"=>"We provide maintenance and installation & specialized cleaning services for all types and sizes of complexes – from small to large.",
+    "professional_Workers_Equipment"=>"Professional Workers and Latest Equipment",
     "Online_Support"=>"Online Support",
     "Call_Us"=>"Call us",
     "Years_Experience"=>"Years Experience",
-    "aboutP"=>"Magic Hand Company, under Emirati management, is one of the best contracting, general maintenance and air conditioning companies in Abu Dhabi. It provides fast solutions and the highest quality. The company also provides services in Dubai, Ajman and Sharjah. It has a team at the highest level and provides many services efficiently and in a timely manner.",
+    "aboutP"=>"alnasim alelel  Company,  is one of the best contracting, general maintenance and air conditioning companies in Abu Dhabi. It provides fast solutions and the highest quality. The company also provides services in Dubai, Ajman and Sharjah. It has a team at the highest level and provides many services efficiently and in a timely manner.",
     
     "safty1"=>'Securing your air conditioner in the best way',
     "safty2"=>'Securing & Safty',
@@ -145,18 +148,23 @@ return [
     "mindsetP"=>'We are very happy to provide our customer services and achieve the highest customer satisfaction ',
 
     'goals'=>"Our Goals",
-    'goalsP'=>"At Hand Magic, we strive to improve the installation and maintenance of air conditioners and pay attention to all the details of the customer's requirements",
+    'goalsP'=>"  installation  of air conditioners and pay attention to all the details",
+    "Get_Amazing_Qude_Cleaning_Experience"=>'Get Amazing Qude Cleaning Experience',
+
+    'Get_Every_Answers_From_Here'=>'Get Every Answers From Here',
+    "Local_operations"=>'Local operations team on-call 24 hours a day, available to work at a moment’s notice',
+
     
     'Vision'=>"Our Vision",
-    'visionP'=>"To be the best magic hand in the UAE, the highest quality, the lowest cost and the fastest achievement",
+    'visionP'=>"To be the best alnaseem alalil in the UAE, the highest quality, the lowest cost and the fastest achievement",
 
 
     'Mission'=>'Our Mision',
-    'MissionP'=>'Magic Hand offers its services to thousands of customers.
+    'MissionP'=>'alnaseem alalil offers its services to thousands of customers.
      The happiness of our customers is the essence of our work and our urge to achieve the best customer service.',
 
      "Why_Choose_Us"=>'Why Choose Us ',
-     "Best_Services "=>'Best Services',
+     "Best_Services"=>'Best Services',
 
     'qTitle1'=>'A complete service starts from the moment you contact us',
     'q1'=>'Our team is dedicated to providing a comprehensive service
@@ -164,7 +172,7 @@ return [
 
 
     'qTitle2'=>'A track record of excellence',
-    'q2'=>'Today, Magic Hand receives more than 3000 requests from customers, creating greater confidence between them and new customers',
+    'q2'=>'Today, alnaseem alalil receives more than 3000 requests from customers, creating greater confidence between them and new customers',
 
 
     
@@ -176,15 +184,18 @@ return [
 
     "lanscape_services"=>"Landscape services relate to the design, construction, and maintenance of gardens, landscaping, and various green spaces. Landscape services include planning and designing beautiful and functional landscapes that suit the client's needs, including selecting plants, trees, and flowers suitable for the region, climate, and terrain.",
     'qTitle3'=>'The latest technology and equipment',
-    'q3'=>'Over the past years amazing progress has been made in the field of conditioning, Magic Hand continues to bring in modern technologies and train experts to deliver the highest quality',
+    'q3'=>'Over the past years amazing progress has been made in the field of conditioning, alnaseem alalil continues to bring in modern technologies and train experts to deliver the highest quality',
     "how_to_easy_works"=> "Easy & quick, see how it works",
     "swimP"=>"Your house is beautiful and with a beautiful swimming pool",
     "PaintP"=>"Add more lively paint to your home",
     "step1"=>"Contact Customer Service",
      "step2"=>"Describe your request or problem",
-     "step3"=>"Specify the date and necessary details",
+     "step3"=>"Specify the date ",
+     "WhatsApp_contact_the_maintenance_department"=>'WhatsApp contact the maintenance department',
+     "WhatsApp_contact_the_Cleaing_department"=>' contact the Cleaing department',
      "Get_a_Free_Estimate"=>"Get a Free Estimate",
      "Contact_for_Services"=>"Contact for Services",
+     "conditions_chose_us"=>"We Will Make Absolutely Any air condition safe & Clean and Neat.",
 
      "send" => 'send',
      "FullName" => 'Full name',
@@ -206,8 +217,8 @@ return [
      "Expert_teams" => 'Expert Team',
      "Satisfied_Clients" => 'Satisfied Client',
 
-     "offers" => "last offers",
-     "seeOffers"=>"see our offers for the strongest expert team",
+     "offers" => "offers",
+     "seeOffers"=>" our offers for the strongest expert team",
 
     'qTitle4'=>'We have a passion for serving our customers',
     'q4'=>'We do not evaluate our success on financial metrics, but on the satisfaction of our customers. We strongly believe that customer satisfaction is the best marketing tool, so our promises remain the best tool for getting more customers',
@@ -220,9 +231,12 @@ return [
     'installation'=>'Installation',
     'supply'=>'Supply',
     'maintenance'=>'Maintenance',
+    'Get_Perfect_air_conditioner'=>'Get Perfect air conditioner',
+
     'Cleaning'=>'Cleaning',
     "All_Rights_Reserved"=>"All Rights Reserved",
     "Copyright"=>"Copy right",
+    "offer"=>"offer",
 
 
     

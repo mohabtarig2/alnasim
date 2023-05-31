@@ -94,6 +94,9 @@ li {
 	padding: 0px;
 	list-style-type: none;
 }
+html {
+	scroll-behavior: smooth;
+  }
 input[type="text"],
 input[type="email"],
 input[type="number"],
@@ -235,7 +238,7 @@ img {
 	display: block;
 }
 .main-menu ul li:not(:first-child) {
-	margin-left: 55px;
+	margin-left: 30px;
 }
 .main-menu {
 	text-align: center;

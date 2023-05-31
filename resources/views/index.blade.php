@@ -14,33 +14,28 @@
             <div class="animation-preloader">
                 <div class="spinner"></div>
                 <div class="txt-loading">
-                    <span data-text-preloader="C" class="letters-loading">
-                        C
+                    <span data-text-preloader="A" class="letters-loading">
+                        A
                     </span>
                     <span data-text-preloader="L" class="letters-loading">
                         L
                     </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
+                    <span data-text-preloader="N" class="letters-loading">
+                        N
+                    </span>
+                    <span data-text-preloader="S" class="letters-loading">
+                        S
                     </span>
                     <span data-text-preloader="A" class="letters-loading">
                         A
                     </span>
-                    <span data-text-preloader="N" class="letters-loading">
-                        N
-                    </span>
                     <span data-text-preloader="I" class="letters-loading">
                         I
                     </span>
-                    <span data-text-preloader="X" class="letters-loading">
-                        X
+                    <span data-text-preloader="M" class="letters-loading">
+                        M
                     </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
-                    </span>
-                    <span data-text-preloader="R" class="letters-loading">
-                        R
-                    </span>
+                
                 </div>
             </div>
             <div class="loader">
@@ -70,20 +65,19 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-8 col-md-12 custom-width-note text-center">
                         <div class="header-top-note header-top-note-3">
-                            <p><strong>Now Hiring:</strong> Are you a driven and motivated in <strong>Corona
-                                    Situation.</strong> Need <a href="#0">Professional Cleaner?</a></p>
+                            <p>{{__('message.Welcome_to_our_Magic_Hand_Services')}}</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="nav-area">
+        <div class="nav-area mt-3">
             <div class="container-fluid">
                 <div class="row align-items-lg-center align-items-start">
                     <div class="col-xl-3 col-lg-2">
                         <div class="header-info-left-wrap">
                             <div class="header-info-left">
-                                <a href="index.html" class="site-logo">
+                                <a href="" class="site-logo">
                                     <img src="assets/images/logo/logo-white.png" alt="Cleanixer">
                                 </a>
                                 <a href="#0" class="site-btn">Appointment <span class="icon"><i
@@ -96,48 +90,40 @@
                         <div class="main-menu">
                             <nav id="mobile-menu">
                                 <ul>
-                                    <li><a href="#0">Home +</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.html">Home Style 01</a></li>
-                                            <li><a href="index-2.html">Home Style 02</a></li>
-                                            <li><a href="index-3.html">Home Style 03</a></li>
-                                        </ul>
+                                    <li><a href="#home">{{__('message.Home')}} </a>
+                                  
                                     </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="#0">Services +</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="service.html">Service</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                        </ul>
+                                    <li><a href="#about">{{__('message.About')}}</a></li>
+                                    <li><a href="#how">{{__('message.How_It_Works')}} </a>
+                                
                                     </li>
-                                    <li><a href="#0">Shop +</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="shop.html">Default Shop</a></li>
-                                            <li><a href="product-details.html">Product Details</a></li>
-                                            <li><a href="cart.html">Shopping Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="wishlist.html">Wishlist</a></li>
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="register.html">Register</a></li>
-                                        </ul>
+                                    <li><a href="#why">{{__('message.WhyUs')}} </a>
+                                 
                                     </li>
-                                    <li><a href="#0">News +</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
+                                    <li><a href="#contact">{{__('message.contact')}} </a></li>
+                                    <li><a href="#services">{{__('message.OurServices')}} </a></li>
+                                        <li><a href="#offers">{{__('message.offers')}} </a>
+                                            <li>      <a  href="{{__('message.langLink') }}">
+                                              
+                                                    
+                                                @php
+                                                if( app()->getLocale()=='en'){
+                                                 echo 'AR';
+                                                }else{
+                            
+                                                 echo 'EN';
+                                                }
+                            
+                                                 @endphp
+                            
+                                                   
+                                               
+                                            </a>  
+                                            
+                                   
                                     </li>
-                                    <li><a href="#0">Pages +</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="offer.html">Offer</a></li>
-                                            <li><a href="faq.html">Faq</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
-                                            <li><a href="portfolio.html">Portfolio</a></li>
-                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                            <li><a href="pricing.html">Pricing Plans</a></li>
-                                        </ul>
+                                  
+                                        
                                     </li>
                                 </ul>
                             </nav>
@@ -145,21 +131,22 @@
                     </div>
                     <div class="col-xl-3 col-lg-2 d-none d-xl-block d-lg-block">
                         <div class="header-info-right">
-                            <div class="header-lang">
+                            {{-- <div class="header-lang">
                                 <div class="lang-icon">
                                     <a href="#0" class="site-btn">English <span class="icon"><i
                                                 class="fal fa-language"></i></span></a>
                                 </div>
                                 <ul class="header-lang-list">
-                                    <li><a href="#0">USA</a></li>
-                                    <li><a href="#0">UK</a></li>
-                                    <li><a href="#0">CA</a></li>
-                                    <li><a href="#0">AU</a></li>
+                                    <li><a href="#0">En</a></li>
+                                    <li><a href="#0">Ar</a></li>
+                                  
                                 </ul>
-                            </div>
+                            </div> --}}
                             <div class="header-button-list">
-                                <button class="btn search-trigger"><i class="fal fa-search"></i></button>
-                                <button class="btn"><i class="fal fa-shopping-cart"></i></button>
+                             
+                                <button class="btn "> <a href="https://www.instagram.com/naseem_aleel/"><i class="fab fa-instagram text-light"></i></a></button>
+                                <button class="btn">   <a href="https://wa.me/+971542230664"></a><i class="fab fa-whatsapp"></i></button>
+                             
                                 <button class="btn hamburger-menu-trigger"><i class="fal fa-bars"></i></button>
                             </div>
                         </div>
@@ -171,7 +158,7 @@
     <!-- header end -->
 
     <!-- slide area start -->
-    <section class="homepage-slide homepage-slide-3 owl-carousel">
+    <section class="homepage-slide homepage-slide-3 owl-carousel" id="home">
         <div class="single-slide-item single-slide-item-3 bg_img" data-overlay="6"
             data-background="assets/images/banner/banner-3-bg-1.jpeg">
             <div class="container">
@@ -179,15 +166,14 @@
                     <div class="col-xl-12 text-center">
                         <div class="single-slide-content single-slide-content-3">
                             <div class="slide-text" data-animation="fadeInUp" data-delay=".3s">
-                                <p>Get Amazing Home & Qude Cleaning Experience</p>
+                                <p>{{__('message.Get_Perfect_air_conditioner')}}</p>
                             </div>
-                            <h1 class="slide-title" data-animation="fadeInUp" data-delay=".5s">Professional <br>
-                            Cleaner.</h1>
-                            <div class="slide-btns mt-30">
+                            <h1 class="slide-title" data-animation="fadeInUp" data-delay=".5s">{{__('message.maintenance')}}</h1>
+                            {{-- <div class="slide-btns mt-30">
                                 <a href="service.html" data-animation="fadeInUp" data-delay=".7s" class="site-btn boxed yellow">Our
                                     Services</a>
-                                <a href="about.html" data-animation="fadeInUp" data-delay=".9s" class="site-btn boxed">Learn More</a>
-                            </div>
+                                <a href="" data-animation="fadeInUp" data-delay=".9s" class="site-btn boxed">Learn More</a>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -200,30 +186,50 @@
                     <div class="col-xl-12 text-center">
                         <div class="single-slide-content single-slide-content-3">
                             <div class="slide-text" data-animation="fadeInUp" data-delay=".3s">
-                                <p>Get Amazing Home & Qude Cleaning Experience</p>
+                                <p>{{__('message.goalsP')}}</p>
                             </div>
-                            <h1 class="slide-title" data-animation="fadeInUp" data-delay=".5s">Professional <br>
-                            Cleaner.</h1>
-                            <div class="slide-btns mt-30">
+                            <h1 class="slide-title" data-animation="fadeInUp" data-delay=".5s">{{__('message.installation')}}</h1>
+                            {{-- <div class="slide-btns mt-30">
                                 <a href="service.html" data-animation="fadeInUp" data-delay=".7s" class="site-btn boxed yellow">Our
                                     Services</a>
-                                <a href="about.html" data-animation="fadeInUp" data-delay=".9s" class="site-btn boxed">Learn More</a>
-                            </div>
+                                <a href="" data-animation="fadeInUp" data-delay=".9s" class="site-btn boxed">Learn More</a>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="single-slide-item single-slide-item-3 bg_img" data-overlay="6"
+        data-background="assets/images/banner/banner-1-bg-1.jpeg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 text-center">
+                    <div class="single-slide-content single-slide-content-3">
+                        <div class="slide-text" data-animation="fadeInUp" data-delay=".3s">
+                            <p>{{__('message.Get_Amazing_Qude_Cleaning_Experience')}}</p>
+                        </div>
+                        <h1 class="slide-title" data-animation="fadeInUp" data-delay=".5s">{{__('message.Cleaning')}}
+                        </h1>
+                        {{-- <div class="slide-btns mt-30">
+                            <a href="service.html" data-animation="fadeInUp" data-delay=".7s" class="site-btn boxed yellow">Our
+                                Services</a>
+                            <a href="" data-animation="fadeInUp" data-delay=".9s" class="site-btn boxed">Learn More</a>
+                        </div> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
     <!-- slide area end -->
 
     <!-- about area start -->
-    <section class="about-area about-area-2 about-area-3 pt-120 pb-120">
+    <section class="about-area about-area-2 about-area-3 pt-120 pb-120" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="about-right-box">
-                        <h2><span>Get Free Estimate</span>
+                        <h2><span>{{__('message.Get_a_Free_Estimate')}}</span>
                             +971 54 223 0664</h2>
                         <span class="icon"><i class="fal fa-phone"></i></span>
                     </div>
@@ -240,7 +246,7 @@
                                         <div class="about-thumb-big mt-50">
                                             <img data-tilt data-tilt-perspective="3000" src="assets/images/about/about-3-thumb-2.jpeg" alt="">
                                             <div class="about-thumb-box">
-                                                <h2 class="title"><span class="odometer" data-count="25">00</span><span class="plus">+</span>
+                                                <h2 class="title"><span class="odometer" data-count="5">00</span><span class="plus">+</span>
                                                     <span class="year">Yr Experience</span></h2>
                                             </div>
                                         </div>
@@ -251,21 +257,16 @@
                         <div class="col-xl-6 col-lg-6">
                             <div class="about-right-side about-right-side-2 about-right-side-3">
                                 <div class="section-heading section-heading-3 mb-35">
-                                    <h5 class="sub-title mb-22">About us</h5>
-                                    <h2 class="section-title">Get Every Answers
-                                        From Here</h2>
+                                    <h5 class="sub-title mb-22">{{__('message.About')}}</h5>
+                                    <h2 class="section-title">{{__('message.Get_Every_Answers_From_Here')}}
+                                       </h2>
                                     <div class="section-content">
-                                        <p>Local operations team on-call 24 hours a day, available to
-                                            work at a moment’s notice.</p>
+                                        <p>{{__('message.Local_operations')}}</p>
                                     </div>
                                 </div>
                                 <div class="about-right-content">
-                                    <p>We provide janitorial and specialized cleaning services for all types and sizes of complexes – from small
-                                        to large
-                                        offices and commercial centers to industrial, warehouse, and retail locations. Our client base is
-                                        comprised of both
-                                        privately-owned companies and public organizations.</p>
-                                    <a href="about.html" class="site-btn boxed yellow mt-35">Read More</a>
+                                    <p>{{__('message.aboutP')}}</p>
+                                    <a href="https://wa.me/+971542230664" class="site-btn boxed yellow mt-35"><i class="fab fa-whatsapp fa-2x"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -277,7 +278,7 @@
     <!-- about area end -->
 
     <!-- brand-box area start -->
-    <div class="brand-box-area pb-120">
+    {{-- <div class="brand-box-area pb-120">
         <div class="container">
             <div class="row mmt-none-30">
                 <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6">
@@ -318,12 +319,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- brand-box area end -->
 
     <!-- video area start -->
-    <section class="counter-area bg_img pb-120" data-overlay="6" data-background="assets/images/bg/counter-bg.jpeg">
-        <a href="//www.youtube.com/embed/4xe72U7mXNg?rel=0&amp;controls=0&amp;showinfo=0" data-rel="lightcase:myCollection"
+    <section class="counter-area bg_img pb-120" data-overlay="6" data-background="assets/images/bg/counter-bg.jpeg" >
+        <a href="//www.youtube.com/embed/7gRZm4wOeos?rel=0&amp;controls=0&amp;showinfo=0" data-rel="lightcase:myCollection"
             data-animation="fadeInLeft" data-delay=".1s" class="video-link">
             <div class="video-play-wrap">
                 <div class="video-mark">
@@ -344,26 +345,28 @@
                         </div>
                         <div class="conter-content mt-40">
                             <div class="counter-content-top mb-30">
-                                <h2 class="conter-title"><span class="counter big">10</span><span class="big">K</span>+</h2>
-                                <p>Active Workers <br>
-                                    & Equipment</p>
+                                <h2 class="conter-title"><span class="counter big">100</span></h2>
+                                <p>{{__('message.professional_Workers_Equipment')}}</p>
                             </div>
-                            <p>We provide janitorial and specialized cleaning services for all types and sizes of complexes – from small to large.</p>
+                            <p>
+                                {{__('message.q1')}}
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3">
                     <div class="single-counter-box">
                         <div class="counter-icon">
-                            <img src="assets/images/icons/counter-icon-2.png" alt="">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg"
+                            
+                            width="120" alt="">
                         </div>
                         <div class="conter-content mt-40">
                             <div class="counter-content-top mb-30">
-                                <h2 class="conter-title"><span class="counter big">72</span>+</h2>
-                                <p>World Wide <br>
-                                Coverage</p>
+                                <h2 class="conter-title"><span class="counter big">10</span>+</h2>
+                             {{__('message.all_uae')}}</p>
                             </div>
-                            <p>We provide janitorial and specialized cleaning services for all types and sizes of complexes – from small to large.</p>
+                            <p>{{__('message.We_provide')}}</p>
                         </div>
                     </div>
                 </div>
@@ -373,13 +376,13 @@
     <!-- video area end -->
 
     <!-- Service area start -->
-    <section class="service-area service-area-2 service-area-3 pt-120 pb-32">
+    <section class="service-area service-area-2 service-area-3 pt-120 pb-32" id="how">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6">
                     <div class="section-heading section-heading-3 text-center mb-55">
-                        <h5 class="sub-title mb-22">Services</h5>
-                        <h2 class="section-title">What We Do</h2>
+                        <h5 class="sub-title mb-22">{{__('message.How')}}</h5>
+                        <h2 class="section-title">{{__('message.How_It_Works')}} </h2>
                     </div>
                 </div>
             </div>
@@ -388,13 +391,15 @@
                     <div class="single-service-box-2 mt-50">
                         <div class="service-box-top mb-10">
                             <div class="service-icon">
-                                <i class="fal fa-home"></i>
+                                <i class="fad fa-user-headset"></i>
+
                             </div>
-                            <h4 class="service-title">House Cleaning</h4>
+                            <h4 class="service-title">{{__('message.step1')}} </h4>
                         </div>
                         <div class="service-box-content">
-                            <p>We provide janitorial and specialized cleaning services for all types and sizes of complexes from small to large.</p>
-                            <a href="service.html" class="inline-btn"><i class="fal fa-long-arrow-right"></i> Read More</a>
+                            <p>
+                                {{__('message.stepPh1')}}
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -402,13 +407,15 @@
                     <div class="single-service-box-2 mt-50">
                         <div class="service-box-top mb-10">
                             <div class="service-icon">
-                                <i class="fal fa-washer"></i>
+                                <i class="fad fa-clipboard-list"></i>
                             </div>
-                            <h4 class="service-title">Cloth Wash</h4>
+                            <h4 class="service-title">{{__('message.step2')}} </h4>
                         </div>
                         <div class="service-box-content">
-                            <p>We provide janitorial and specialized cleaning services for all types and sizes of complexes from small to large.</p>
-                            <a href="service.html" class="inline-btn"><i class="fal fa-long-arrow-right"></i> Read More</a>
+                            <p>
+                                {{__('message.stepPh2')}}
+                            </p>
+                         
                         </div>
                     </div>
                 </div>
@@ -416,16 +423,20 @@
                     <div class="single-service-box-2 mt-50">
                         <div class="service-box-top mb-10">
                             <div class="service-icon">
-                                <i class="fal fa-bed"></i>
+                                <i class="fad fa-calendar-check"></i>
                             </div>
-                            <h4 class="service-title">House Cleaning</h4>
+                            <h4 class="service-title">{{__('message.step3')}} </h4>
                         </div>
                         <div class="service-box-content">
-                            <p>We provide janitorial and specialized cleaning services for all types and sizes of complexes from small to large.</p>
-                            <a href="service.html" class="inline-btn"><i class="fal fa-long-arrow-right"></i> Read More</a>
+                            <p>
+                                {{__('message.stepPh3')}}</p>
+                            {{-- <a href="service.html" class="inline-btn"><i class="fal fa-long-arrow-right"></i> Read More</a> --}}
                         </div>
                     </div>
                 </div>
+           
+                {{-- 
+                
                 <div class="col-xl-4 col-lg-6">
                     <div class="single-service-box-2 mt-50">
                         <div class="service-box-top mb-10">
@@ -454,7 +465,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6">
+         <div class="col-xl-4 col-lg-6">
                     <div class="single-service-box-2 mt-50">
                         <div class="service-box-top mb-10">
                             <div class="service-icon">
@@ -467,41 +478,40 @@
                             <a href="service.html" class="inline-btn"><i class="fal fa-long-arrow-right"></i> Read More</a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
     <!-- Service area end -->
 
     <!-- footer-top box start -->
-    <section class="footer-top-box-area">
+    <section class="footer-top-box-area" >
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-xl-6">
                     <div class="footer-top-box d-flex align-items-center left">
                         <div class="footer-box-icon">
-                            <img src="assets/images/icons/track-icon.png" alt="">
+                            <i class="far text-warning fa-air-conditioner  fa-3x" ></i>
                         </div>
                         <div class="footer-box-content">
-                            <h2 class="footer-box-title">Track Your Area</h2>
-                            <p>We provide janitorial and specialized cleaning services for all typ es and sizes of complexes
-                                from small to large
-                                offices.</p>
-                            <a href="contact.html" class="inline-btn"><i class="fal fa-arrow-right"></i></a>
+                            <h2 class="footer-box-title">{{__('message.WhatsApp_contact_the_Cleaing_department')}}</h2>
+                            <p>{{__('message.maintenance3')}}
+                               </p>
+                            <a href="https://wa.me/+971542230664" class="inline-btn"><i class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6">
                     <div class="footer-top-box d-flex align-items-center right">
                         <div class="footer-box-icon">
-                            <img src="assets/images/icons/estimate-icon.png" alt="">
+                         
+                         
+                            <i class="fad fa-snowplow fa-3x"></i>
                         </div>
                         <div class="footer-box-content">
-                            <h2 class="footer-box-title">Request An Estimate</h2>
-                            <p>We provide janitorial and specialized cleaning services for all typ es and sizes of complexes
-                                from small to large
-                                offices.</p>
-                            <a href="contact.html" class="inline-btn"><i class="fal fa-arrow-right"></i></a>
+                            <h2 class="footer-box-title">{{__('message.WhatsApp_contact_the_maintenance_department')}}</h2>
+                            <p>{{__('message.safty3')}}.</p>
+                            <a href="https://wa.me/+971542230664" class="inline-btn"><i class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
@@ -511,43 +521,38 @@
     <!-- footer-top box end -->
 
     <!-- wcu-area start -->
-    <section class="wcu-area wcu-area-2 bg-2 pt-220 pb-120">
+    <section class="wcu-area wcu-area-2 bg-2 pt-220 pb-120" id="why">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
                     <div class="wcu-left">
                         <div class="section-heading section-heading-3 mb-45 pr-35">
-                            <h5 class="sub-title mb-22">Why Choose us</h5>
-                            <h2 class="section-title">We Will Make Absolutely
-                                Any Place Clean, Neat.</h2>
+                            <h5 class="sub-title mb-22">{{__('message.Why_Choose_Us')}}</h5>
+                            <h2 class="section-title">{{__('message.conditions_chose_us')}}</h2>
                             <div class="content mt-35">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna
-                                    aliqua. Ut enim ad minim veniam.</p>
+                                <p>{{__('message.q3')}}</p>
                             </div>
                         </div>
                         <div class="wcu-box-wrapper wcu-box-wrapper-2 mt-none-30">
                             <div class="wcu-box wcu-box-2 mt-30">
                                 <div class="wcu-icon mb-25">
-                                    <img src="assets/images/icons/service-icon-2.png" alt="">
+                              
+                                    <i class="fad fa-users-crown fa-3x"></i>
                                 </div>
                                 <div class="wcu-content">
-                                    <h4 class="wcu-title">Expert Employee</h4>
-                                    <p>Lorem ipsum dolor sit amet, c
-                                    nsectetur adip isicing elit, sed
-                                    do eiusmod tempor.</p>
+                                    <h4 class="wcu-title">{{__('message.Quality')}}</h4>
+                                    <p>{{__('message.q1')}}</p>
                                 </div>
                                 <span class="count">01</span>
                             </div>
                             <div class="wcu-box wcu-box-2 mt-30">
                                 <div class="wcu-icon mb-25">
-                                    <img src="assets/images/icons/service-icon-3.png" alt="">
+                                  
+                                    <i class="fad fa-user-headset fa-3x"></i>
                                 </div>
                                 <div class="wcu-content">
-                                    <h4 class="wcu-title">24/7 OT Support</h4>
-                                    <p>Lorem ipsum dolor sit amet, c
-                                    nsectetur adip isicing elit, sed
-                                    do eiusmod tempor.</p>
+                                    <h4 class="wcu-title">{{__('message.Support')}}</h4>
+                                    <p>{{__('message.customer_support_phragraph')}}</p>
                                 </div>
                                 <span class="count">02</span>
                             </div>
@@ -573,24 +578,23 @@
     <!-- wcu-area end -->
 
     <!-- cta area start -->
-    <section class="cta-area cta-area-2 pt-120 pb-120">
+    <section class="cta-area cta-area-2 pt-120 pb-120" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 offset-xl-5">
                     <div class="cta-wrap">
                         <div class="section-heading section-heading-2 mb-50">
-                            <h5 class="sub-title mb-22">Call To Action</h5>
-                            <h2 class="section-title">Get an emergency call
-                                or appoinment.</h2>
+                            <h5 class="sub-title mb-22">{{__('message.Call_Anytime')}}</h5>
+                            <h2 class="section-title">{{__('message.step3')}}</h2>
                         </div>
                         <div class="cta-form mt-none-10">
                             <div class="form-group mt-10">
                                 <label for="name"><i class="fal fa-user"></i></label>
-                                <input type="text" id="name" placeholder="Enter your name">
+                                <input type="text" id="name" placeholder={{__('message.FullName')}}>
                             </div>
                             <div class="form-group mt-10">
                                 <label for="email"><i class="fal fa-envelope"></i></label>
-                                <input type="email" id="email" placeholder="Enter your email">
+                                <input type="email" id="email" placeholder={{__('message.Email')}}>
                             </div>
                             <div class="from-group-wrapper mt-10">
                                 <div class="form-group">
@@ -598,12 +602,12 @@
                                     <input type="date" id="date">
                                 </div>
                                 <div class="form-group">
-                                    <select name="subject">
+                                    {{-- <select name="subject">
                                         <option data-display="Subject">Subject</option>
                                         <option value="1">Services</option>
                                         <option value="2">Cleaning</option>
                                         <option value="3">Cleaning</option>
-                                    </select>
+                                    </select> --}}
                                 </div>
                             </div>
                             <div class="form-group mt-10">
@@ -618,13 +622,13 @@
     <!-- cta area end -->
 
     <!-- team area start -->
-    <section class="team-area pt-120 pb-120">
+    <section class="team-area pt-120 pb-120" id="services">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6">
                     <div class="section-heading section-heading-3 text-center mb-55">
-                        <h5 class="sub-title mb-22">Team</h5>
-                        <h2 class="section-title">Our Experts</h2>
+                        <h5 class="sub-title mb-22">{{__('message.Best_Services')}}</h5>
+                        <h2 class="section-title">{{__('message.OurServices')}}</h2>
                     </div>
                 </div>
             </div>
@@ -635,13 +639,11 @@
                             <img src="assets/images/team/team-1-thumb-1.jpeg" alt="">
                         </div>
                         <div class="team-content">
-                            <h4 class="name">Rosalina D. William</h4>
-                            <span class="designation">Founder</span>
+                            <h4 class="name">{{__('message.Cleaning')}}</h4>
+                            <span class="designation">{{__('message.Contact_for_Services')}}</span>
                             <div class="social-links mt-25">
-                                <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#0"><i class="fab fa-twitter"></i></a>
-                                <a href="#0"><i class="fab fa-behance"></i></a>
-                                <a href="#0"><i class="fab fa-youtube"></i></a>
+                                <a href="https://wa.me/+971542230664"><i class="fab fa-whatsapp"></i></a>
+                   
                             </div>
                         </div>
                     </div>
@@ -652,13 +654,11 @@
                             <img src="assets/images/team/team-1-thumb-2.jpeg" alt="">
                         </div>
                         <div class="team-content">
-                            <h4 class="name">Hilixer D. Browni</h4>
-                            <span class="designation">CEO</span>
+                            <h4 class="name">{{__('message.maintenance')}}</h4>
+                            <span class="designation">{{__('message.Contact_for_Services')}}</span>
                             <div class="social-links mt-25">
-                                <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#0"><i class="fab fa-twitter"></i></a>
-                                <a href="#0"><i class="fab fa-behance"></i></a>
-                                <a href="#0"><i class="fab fa-youtube"></i></a>
+                                <a href="https://wa.me/+971542230664"><i class="fab fa-whatsapp"></i></a>
+                   
                             </div>
                         </div>
                     </div>
@@ -669,13 +669,11 @@
                             <img src="assets/images/team/team-1-thumb-3.jpeg" alt="">
                         </div>
                         <div class="team-content">
-                            <h4 class="name">Miranda D. Kilixer</h4>
-                            <span class="designation">Cleaner</span>
+                            <h4 class="name">{{__('message.supply')}}</h4>
+                            <span class="designation">{{__('message.Contact_for_Services')}}</span>
                             <div class="social-links mt-25">
-                                <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#0"><i class="fab fa-twitter"></i></a>
-                                <a href="#0"><i class="fab fa-behance"></i></a>
-                                <a href="#0"><i class="fab fa-youtube"></i></a>
+                                <a href="https://wa.me/+971542230664"><i class="fab fa-whatsapp"></i></a>
+                   
                             </div>
                         </div>
                     </div>
@@ -686,13 +684,11 @@
                             <img src="assets/images/team/team-1-thumb-4.jpeg" alt="">
                         </div>
                         <div class="team-content">
-                            <h4 class="name">Yokoloko Y. Pakura</h4>
-                            <span class="designation">Cleaner</span>
+                            <h4 class="name">{{__('message.installation')}}</h4>
+                            <span class="designation">{{__('message.Contact_for_Services')}}</span>
                             <div class="social-links mt-25">
-                                <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#0"><i class="fab fa-twitter"></i></a>
-                                <a href="#0"><i class="fab fa-behance"></i></a>
-                                <a href="#0"><i class="fab fa-youtube"></i></a>
+                                <a href="https://wa.me/+971542230664"><i class="fab fa-whatsapp"></i></a>
+                   
                             </div>
                         </div>
                     </div>
@@ -703,7 +699,7 @@
     <!-- team area end -->
 
     <!-- testimonial area start -->
-    <section class="testimonial-area testimonial-area-2 bg-3 pt-120 pb-160">
+    {{-- <section class="testimonial-area testimonial-area-2 bg-3 pt-120 pb-160">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10 text-center">
@@ -762,23 +758,31 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- testimonial area end -->
 
     <!-- news area start -->
-    <div class="news-area news-area-2 news-area-3 pt-120 pb-120">
+    <div class="news-area news-area-2 news-area-3 pt-120 pb-120" id="offers">
         <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="section-heading section-heading-3 text-center mb-55">
+                        <h5 class="sub-title mb-22">{{__('message.offers')}}</h5>
+                        <h2 class="section-title">{{__('message.seeOffers')}}</h2>
+                    </div>
+                </div>
+            </div>
             <div class="row mt-none-50">
                 <div class="col-xl-4 col-lg-6">
                     <article class="postbox post format-image mt-50">
                         <div class="postbox-text">
                             <div class="postbox-thumb" data-overlay="5">
-                                <a href="blog-details.html">
+                                <a href="">
                                     <img src="assets/images/news/news-2-thumb-1.jpeg" alt="blog image">
                                 </a>
                             </div>
-                            <span class="post-cat">Cloth Wash</span>
-                            <div class="postbox-content">
+                            <span class="post-cat">{{__('message.offer')}}</span>
+                            {{-- <div class="postbox-content">
                                 <div class="post-meta mb-10">
                                     <a href="#0"><i class="fal fa-user"></i> By Admin </a>
                                     <a href="#0"><i class="fal fa-calendar-alt"></i> 24th March 2020</a>
@@ -787,8 +791,8 @@
                                     <a href="blog-details.html">Superior clean through our trained
                                         staff.</a>
                                 </h4>
-                                <a href="blog-details.html" class="inline-btn"><i class="fal fa-arrow-right"></i></a>
-                            </div>
+                                <a href="blog-details.html" class="inline-btn"><i class="fab fa-whatsapp"></i></a>
+                            </div> --}}
                         </div>
                     </article>
                 </div>
@@ -796,12 +800,12 @@
                     <article class="postbox post format-image mt-50">
                         <div class="postbox-text bg_img">
                             <div class="postbox-thumb" data-overlay="5">
-                                <a href="blog-details.html">
+                                <a href="">
                                     <img src="assets/images/news/news-2-thumb-2.jpeg" alt="blog image">
                                 </a>
                             </div>
-                            <span class="post-cat">Cloth Wash</span>
-                            <div class="postbox-content">
+                            <span class="post-cat">{{__('message.offer')}}</span>
+                            {{-- <div class="postbox-content">
                                 <div class="post-meta mb-10">
                                     <a href="#0"><i class="fal fa-user"></i> By Admin </a>
                                     <a href="#0"><i class="fal fa-calendar-alt"></i> 24th March 2020</a>
@@ -810,8 +814,8 @@
                                     <a href="blog-details.html">Superior clean through our trained
                                         staff.</a>
                                 </h4>
-                                <a href="blog-details.html" class="inline-btn"><i class="fal fa-arrow-right"></i></a>
-                            </div>
+                                <a href="blog-details.html" class="inline-btn"><i class="fab fa-whatsapp"></i></a>
+                            </div> --}}
                         </div>
                     </article>
                 </div>
@@ -819,12 +823,12 @@
                     <article class="postbox post format-image mt-50">
                         <div class="postbox-text">
                             <div class="postbox-thumb" data-overlay="5">
-                                <a href="blog-details.html">
+                                <a href="">
                                     <img src="assets/images/news/news-2-thumb-3.jpeg" alt="blog image">
                                 </a>
                             </div>
-                            <span class="post-cat">Cloth Wash</span>
-                            <div class="postbox-content">
+                            <span class="post-cat">{{__('message.offer')}}</span>
+                            {{-- <div class="postbox-content">
                                 <div class="post-meta mb-10">
                                     <a href="#0"><i class="fal fa-user"></i> By Admin </a>
                                     <a href="#0"><i class="fal fa-calendar-alt"></i> 24th March 2020</a>
@@ -833,8 +837,8 @@
                                     <a href="blog-details.html">Superior clean through our trained
                                         staff.</a>
                                 </h4>
-                                <a href="blog-details.html" class="inline-btn"><i class="fal fa-arrow-right"></i></a>
-                            </div>
+                                <a href="blog-details.html" class="inline-btn"><i class="fab fa-whatsapp"></i></a>
+                            </div> --}}
                         </div>
                     </article>
                 </div>
@@ -849,39 +853,41 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <div class="footer-widget">
-                        <h4 class="title">Our Services</h4>
+                        <h4 class="title">{{__('message.Links')}}</h4>
+                    
+
                         <ul>
-                            <li><a href="#0"><i class="fal fa-angle-right "></i> Maid Services</a></li>
-                            <li><a href="#0"><i class="fal fa-angle-right "></i> Window Cleaning</a></li>
-                            <li><a href="#0"><i class="fal fa-angle-right "></i> Domestic Cleaning</a></li>
-                            <li><a href="#0"><i class="fal fa-angle-right "></i> House Cleaning</a></li>
-                            <li><a href="#0"><i class="fal fa-angle-right "></i> Professional Carwashing</a></li>
+                            <li><a href="#home"><i class="fal fa-angle-right "></i> {{__('message.Home')}}</a></li>
+                            <li><a href="#about"><i class="fal fa-angle-right "></i> {{__('message.About')}}</a></li>
+                            <li><a href="#how"><i class="fal fa-angle-right "></i> {{__('message.How_It_Works')}}</a></li>
+                            <li><a href="#why"><i class="fal fa-angle-right "></i> {{__('message.WhyUs')}}</a></li>
+                       
+
+                    
                         </ul>
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
                     <div class="footer-widget service-menu">
-                        <h4 class="title">Our Services</h4>
+                        <h4 class="title">{{__('message.Links')}}</h4>
                         <ul>
-                            <li><a href="about.html"><i class="fal fa-angle-right "></i> About Company</a></li>
-                            <li><a href="service.html"><i class="fal fa-angle-right "></i> Services</a></li>
-                            <li><a href="pricing.html"><i class="fal fa-angle-right "></i> Pricing</a></li>
-                            <li><a href="#0"><i class="fal fa-angle-right "></i> Calculator</a></li>
-                            <li><a href="blog.html"><i class="fal fa-angle-right "></i> Our Blog</a></li>
+                            <li><a href="#contact"><i class="fal fa-angle-right "></i>{{__('message.contact')}}</a></li>
+                            <li><a href="#services"><i class="fal fa-angle-right "></i>{{__('message.OurServices')}}</a></li>
+                            <li><a href="#offers"><i class="fal fa-angle-right "></i> {{__('message.offers')}}</a></li>
+                        
                         </ul>
                     </div>
                 </div>
                 <div class="col-xl-6 offset-xl-1 col-lg-6">
                     <div class="footer-widget footer-contact-widget">
-                        <h4 class="title">Contact Us</h4>
+                        <h4 class="title">{{__('message.contact')}}</h4>
                         <div class="footer-contact-info">
                             <div class="content">
-                                <p>16/A, Toma City, New York,
-                                    United States, NY, 10005</p>
-                                <a href="#0"><i class="fal fa-angle-right"></i> Get Direction</a>
+                                <p>Dubai</p>
+                              
                             </div>
                             <div class="box">
-                                <h2><span>Get Free Estimate</span>
+                                <h2><span>{{__('message.Get_a_Free_Estimate')}}</span>
                                     +971 54 223 0664</h2>
                                 <span class="icon"><i class="fal fa-phone"></i></span>
                             </div>
@@ -892,11 +898,11 @@
                                 <a href="mailto:info@alnasim.ae"><span>E:</span> info@alnasim.ae</a>
                             </div>
                             <div class="social-links">
-                                <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#0"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/naseem_aleel/"><i class="fab fa-instagram "></i></a>
+                                {{-- <a href="#0"><i class="fab fa-twitter"></i></a>
                                 <a href="#0"><i class="fab fa-behance"></i></a>
                                 <a href="#0"><i class="fab fa-linkedin"></i></a>
-                                <a href="#0"><i class="fab fa-youtube"></i></a>
+                                <a href="#0"><i class="fab fa-youtube"></i></a> --}}
                             </div>
                         </div>
                     </div>
@@ -936,27 +942,22 @@
             </button>
         </div>
         <div class="logo-side mb-30">
-            <a href="index.html" class="site-logo-2">
+            <a href="" class="site-logo-2">
                 <img src="assets/images/logo/logo-white.png" alt="" />
             </a>
         </div>
         <div class="side-info">
             <div class="contact-list mb-40">
-                <h4>About Us</h4>
-                <p>We must explain to you how all seds this mistakens idea off denouncing pleasures and praising pain
-                    was born and I will give you a completed accounts of
-                    the system and expound.</p>
-                <div class="mt-30 mb-30">
-                    <a href="contact.html" class="site-btn white">CONTACT US <span class="icon"><i
-                                class="fal fa-calendar-alt"></i></span></a>
-                </div>
+                <h4>{{__('message.About')}}</h4>
+                <p>{{__('message.aboutP')}}.</p>
+              
             </div>
             <div class="contact-list mb-40">
-                <h4>Contact Info</h4>
-                <p><i class="fal fa-rocket"></i> <span>123/A, Miranda City Likaoli Prikano, Dope United States </span>
+                <h4>{{__('message.contact')}}</h4>
+                <p><i class="fal fa-rocket"></i> <span>Dubai </span>
                 </p>
-                <p><i class="far fa-phone"></i> <span>+0989 7876 9865 9</span> </p>
-                <p><i class="far fa-envelope-open"></i><span>info@example.com</span></p>
+                <p><i class="far fa-phone"></i> <span>+971 54 223 0664</span> </p>
+                <p><i class="far fa-envelope-open"></i><span>info@alnasim.ae</span></p>
             </div>
         </div>
     </div>
