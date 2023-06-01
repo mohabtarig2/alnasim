@@ -128,7 +128,7 @@ return [
     "Online_Support"=>"Online Support",
     "Call_Us"=>"Call us",
     "Years_Experience"=>"Years Experience",
-    "aboutP"=>"alnasim alelel  Company,  is one of the best contracting, general maintenance and air conditioning companies in Abu Dhabi. It provides fast solutions and the highest quality. The company also provides services in Dubai, Ajman and Sharjah. It has a team at the highest level and provides many services efficiently and in a timely manner.",
+    "aboutP"=>"alnasim alelel  Company,  is one of the best contracting, general maintenance and air conditioning companies in DUBAi. It provides fast solutions and the highest quality. The company also provides services in Dubai, Ajman and Sharjah. It has a team at the highest level and provides many services efficiently and in a timely manner.",
     
     "safty1"=>'Securing your air conditioner in the best way',
     "safty2"=>'Securing & Safty',
